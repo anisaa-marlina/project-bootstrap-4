@@ -56,7 +56,7 @@
           data-target="#myModal"
           data-toggle="modal"
         >
-          Login
+          Forgot password
         </button>
 
         <div
@@ -68,8 +68,10 @@
         >
           <div class="modal-dialog" role="document">
             <div class="modal-content">
-              <div class="modal-header">
-                <div class="modal-title">Modal Title</div>
+              <div class="modal-header bg-primary text-white rounded-top">
+                <div class="modal-title">
+                  Please enter your email to reset password!
+                </div>
                 <button
                   type="button"
                   class="close"
@@ -80,28 +82,30 @@
                 </button>
               </div>
               <div class="modal-body">
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Nostrum non qui, culpa voluptatum dolorem, illo quis totam
-                  ipsa tempora ipsum dolore vero obcaecati earum possimus modi
-                  alias facilis perferendis? Porro?
-                </p>
-                <p>
-                  Enim fuga pariatur temporibus ullam deleniti accusantium
-                  repellat neque error, ex voluptatibus. Tenetur, praesentium
-                  beatae! Nulla necessitatibus ab id quam esse voluptas facilis
-                  maxime in! Nobis ipsa ratione sunt quod!
-                </p>
-              </div>
-              <div class="modal-footer">
-                <!-- <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-dismiss="modal"
-                >
-                  Close
-                </button> -->
-                <button type="button" class="btn btn-primary">Login</button>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                  />
+                  <button type="submit" class="btn btn-primary mt-3">
+                    Reset
+                  </button>
+                </div>
+                <!--
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">Login</button>
+                </div>
+                -->
               </div>
             </div>
           </div>
